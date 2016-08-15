@@ -12,7 +12,7 @@ require("./views/detail");
 require("./views/guide");
 
 SPA.config({
-	indexView:"guide"
+	indexView:"index"
 })
 
 
