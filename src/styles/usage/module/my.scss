@@ -1,0 +1,14 @@
+@import "../../lib/widget/yo-dialog";
+
+@include yo-dialog(
+   $name:a,
+   $height:1.8rem
+){
+    footer button:first-child{
+        background:#ff0!important;
+    }
+    footer button:last-child{
+        background:#ccc!important;
+        color:#333;
+    }
+}

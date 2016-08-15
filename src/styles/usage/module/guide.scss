@@ -1,0 +1,23 @@
+#swiper-container{
+	width:100%;
+	height:100%;
+	position:relative;
+	.swiper-wrapper{
+	    width:100%;
+	    height:100%;
+	}
+	.swiper-slide:last-child{
+	   p{
+	      position:absolute;
+	      width:0.8rem;
+	      height:0.2rem;
+	      right:0.7rem;
+	      bottom:0.55rem;
+	      z-index:9999999999999;
+	   }
+	}
+	img{
+	   width:100%;
+	   height:100%;
+	}
+}

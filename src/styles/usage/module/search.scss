@@ -1,0 +1,25 @@
+.m-search{
+	width:100%;
+	height:100%;
+	.m-search-img{
+        height:2rem;
+        width:100%;
+        background:#ddd;
+	}
+	.m-search-content{
+	    height:10rem;
+	    background:#f9efd4;
+	}
+}
+
+.m-search-menu{
+    width:100%;
+    height:.44rem;
+    background:#f00;
+    &.fixed{
+       position:fixed;
+       left:0;
+       top:0;
+    }
+}
+

@@ -1,0 +1,65 @@
+<div class="m-home">
+   <header>
+        <ul>
+          <li class="yo-ico menu">&#xe745;</li>
+          <li>
+             <ul id="title">
+              <li class="active">热点</li>
+              <li>关注</li>
+             </ul>
+          </li>
+          <li class="yo-ico sm">&#xe684;</li>
+        </ul>
+    </header>
+    <div class="swiper-container" id="swiper-home">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <nav>
+               <ul>
+                  <li class="active" action-type="tap.slide">足球生活</li>
+                  <li action-type="tap.slide">足球现场</li>
+                  <li action-type="tap.slide">足球美女</li>
+               </ul>
+            </nav>
+           <div class="swiper-container" id="swiper-hot">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                 <div class="scroller" spa-widget="scroll" data-scroll-id="homeListScroll">
+                     <div>
+                       <div class="head">
+                          <img src="/footballApp/images/arrow.png" alt="">
+                          <span>下拉刷新</span>
+                       </div>
+                       <ul ms-repeat-obj="livedata">
+                         <li ms-attr-data-id="obj[0].id" action-type="goto.detail">
+                             <img ms-src="obj[0].img" alt="">
+                             <b ms-text="obj[0].title"></b>
+                         </li>
+                         <li></li>
+                         <li ms-attr-data-id="obj[1].id" action-type="goto.detail" ms-class-hide="!obj[1]">
+                             <img ms-src="obj[1].img" alt="">
+                             <b ms-text="obj[1].title"></b>
+                         </li>
+                       </ul>
+                       <div class="foot">
+                          <img src="/footballApp/images/arrow.png" alt="">
+                          <span>上拉加载</span>
+                       </div>
+                     </div>
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                 足球现场
+              </div>
+              <div class="swiper-slide">
+                  足球美女
+              </div>
+            </div>
+           </div>
+        </div>
+        <div class="swiper-slide">
+            <p> 关注......</p>
+        </div>
+      </div>
+    </div>
+</div>
